@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet) 
 
-# Web Summit Conference: Mobile and Desktop Version
+# Awesome Books Project with ES6
 
-> This is a HTML/CSS and Javscript based conference web application.it has been developed as part of a Microverse capstone project.
+> This is a HTML/CSS and Javscript based project changing the previous awesome books project to include ES6 syntax.
 
 ## Built With
 
