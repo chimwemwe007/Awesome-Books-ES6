@@ -7,7 +7,7 @@ export const footerTime = document.querySelector('#footer_time');
 export const time = document.querySelector('#time');
 
 // sections
-export const showingBooksSection = document.querySelector('.showing_books');
+export const showBooksSection = document.querySelector('.show_books');
 export const newBookSection = document.querySelector('.book_section');
 export const contactSection = document.querySelector('.contact_section');
 

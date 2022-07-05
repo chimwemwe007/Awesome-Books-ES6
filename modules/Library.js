@@ -5,7 +5,7 @@ import {
   authorInput,
   bookList,
   form,
-  showingBooksSection,
+  showBooksSection,
 } from './elements.js';
 
 export default class Library {
@@ -82,7 +82,7 @@ export default class Library {
     bookList.innerHTML = '';
 
     if (this.books.length === 0) {
-      hide(showingBooksSection);
+      hide(showBooksSection);
     }
 
     if (this.books || this.books.length !== 0) {
