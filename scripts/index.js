@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
   footerTime.innerHTML = dt.year;
 });
 
-// update the time every second.
+// update time
 setInterval(() => {
   const now = DateTime.now();
   const currentTime = now.toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS);
