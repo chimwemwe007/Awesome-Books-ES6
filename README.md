@@ -9,7 +9,6 @@
 - HTML
 - CSS
 - Javascript
-- Flexbox
 - Linters (Lighthouse, Webhint, Stylelint, Eslint)
 - Visual Studio Code
 - Git & Github
