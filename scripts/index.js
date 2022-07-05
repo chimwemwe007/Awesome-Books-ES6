@@ -4,7 +4,7 @@ import { show, hide } from '../modules/utils.js';
 import { DateTime } from '../node_modules/luxon/src/luxon.js';
 import {
   addBookButton,
-  showingBooksSection,
+  showBooksSection,
   addBookLink,
   contactLink,
   homeLink,
@@ -20,7 +20,7 @@ export const library = new Library();
 
 export const showHome = () => {
   if (library.books.length) {
-    show(showingBooksSection);
+    show(showBooksSection);
   }
 
   hide(newBookSection);
@@ -30,13 +30,13 @@ export const showHome = () => {
 
 export const showBookForm = () => {
   show(newBookSection, 'flex');
-  hide(showingBooksSection);
+  hide(showBooksSection);
   hide(contactSection);
 };
 
 export const showContact = () => {
   show(contactSection, 'flex');
-  hide(showingBooksSection);
+  hide(showBooksSection);
   hide(newBookSection);
 };
 
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
   library.displayBooks();
 
   if (library.books.length) {
-    show(showingBooksSection);
+    show(showBooksSection);
   }
 
   footerTime.innerHTML = dt.year;
